@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cashpundit *.css
+recursive-include cashpundit *.csv
+recursive-include cashpundit *.html
+recursive-include cashpundit *.ico
+recursive-include cashpundit *.js
+recursive-include cashpundit *.json
+recursive-include cashpundit *.md
+recursive-include cashpundit *.png
+recursive-include cashpundit *.py
+recursive-include cashpundit *.svg
+recursive-include cashpundit *.txt
+recursive-exclude cashpundit *.pyc
